@@ -5,6 +5,7 @@ import AppNavigation from '~/components/AppNavigation.vue';
 
 <template>
     <div>
+        <nuxt-loading-indicator />
         <app-navigation />
         <div class="mt-[3.6rem]">
             <slot />
