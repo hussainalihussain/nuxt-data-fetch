@@ -10,8 +10,12 @@ const { pending, data: products } = useFetch<Product[]>('https://fakestoreapi.co
             <p>Loading...</p>
         </div>
         <div v-else class="grid grid-cols-5 gap-4">
-            <ProductCard v-for="(product, index) in products" :key="index" :image="product.image"
-                :title="product.title" />
+            <ProductCard
+                v-for="(product, index) in products" :key="index"
+                :id="product.id"
+                :image="product.image"
+                :title="product.title"
+            />
         </div>
     </div>
 </template>

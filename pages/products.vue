@@ -5,7 +5,8 @@ const { data: products } = await useFetch<Product[]>('https://fakestoreapi.com/p
     <div class="grid grid-cols-5 gap-4">
         <ProductCard
             v-for="(product, index) in products"
-            :key="index"
+            :key="product.id"
+            :id="product.id"
             :image="product.image"
             :title="product.title"
         />

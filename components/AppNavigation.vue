@@ -10,6 +10,7 @@
                     <AppNavigationLink href="/products" text="Products" />
                     <AppNavigationLink href="/products-with-lazy" text="Products with Lazy" />
                     <AppNavigationLink href="/products-with-no-server" text="Products with No Server" />
+                    <AppNavigationLink href="/products-with-some-data" text="Products with Some Data" />
                 </ul>
             </div>
         </div>
