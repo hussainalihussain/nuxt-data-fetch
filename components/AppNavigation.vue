@@ -8,6 +8,8 @@
                     class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-50">
                     <AppNavigationLink href="/" text="Home" />
                     <AppNavigationLink href="/products" text="Products" />
+                    <AppNavigationLink href="/products-with-lazy" text="Products with Lazy" />
+                    <AppNavigationLink href="/products-with-no-server" text="Products with No Server" />
                 </ul>
             </div>
         </div>
